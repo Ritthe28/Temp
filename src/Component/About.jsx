@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='flex flex-col items-center justify-center container mx-auto md:mx-20 lg:px-32 w-full overflow-hidden ' id='About'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2'>About <span className='underline underline-offset-4 decoration-1 under font-light'>Our Brand</span></h1>
-      <p className='text-gray-50 max-w-80 text-center mb-10 text-black'>Passionate About Properties , Dedicated to your Vision </p>
+      <p className=' max-w-80 text-center mb-10 text-black'>Passionate About Properties , Dedicated to your Vision </p>
       <div className='flex flex-col md:flex-row items-center md:items-start'>
         <img src={assets.brand_img} className='sm:w-1/2 w-full max-w-lg' alt="" />
         <div className='mx-10 flex flex-col items-center md:items-start mt-10 text-gray-600'>
